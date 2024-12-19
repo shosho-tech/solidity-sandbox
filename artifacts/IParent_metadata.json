@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "externalFunction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_data",
+						"type": "uint256"
+					}
+				],
+				"name": "setData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ParentChild.sol": "IParent"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ParentChild.sol": {
+			"keccak256": "0x0b7b5205d548dc46b8fdab0c7e0ed642be5d67650279c8aef1f607f0a5ce1813",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e1230dcb6dc27a3c5fa6f4023f9a4d2c390ec108a63fffaa0480375c2b94b2c7",
+				"dweb:/ipfs/QmTBdpofgsa3vicwGm8QHhzQguBbwwUNi3HFDsgh6hTN5Y"
+			]
+		}
+	},
+	"version": 1
+}
